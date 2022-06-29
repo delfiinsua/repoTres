@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/login" method="get">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+
+         <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+         </div>
+         <div>
+            <label for="nusuario">Nombre de usuario:</label>
+            <input type="text" id="nusuario" name="nusuario">
+         </div>
+         <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+         </div>
+         <div>
+            <label for="fnacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fnacimiento" name="fnacimiento">
+         </div>
+         <div>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" id="domicilio" name="domicilio">
+         </div>
+         <div>
+            <label for="perfilusuario">Perfil de usuario:</label>
+            <input type="radio" name="perfilusuario" value="Comprar">
+            <input type="radio" name="perfilusuario" value="Vender">
+         </div>
+         <div>
+            <label for="categoriasinteres">Categorías de interes:</label>
+            <input type="checkbox" name="categoriasinteres" value="Electro">
+            <input type="checkbox" name="categoriasinteres" value="Moda">
+            <input type="checkbox" name="categoriasinteres" value="Hogar">
+            <input type="checkbox" name="categoriasinteres" value="Juguetería">
+            <input type="checkbox" name="categoriasinteres" value="Vida-sana">
+         </div>
+         <div>
+            <label for="fotousuario">Foto de usuario:</label>
+            <input type="file" id="fotousuario" name="fotousuario" accept=".jpg">
+         </div>
+         <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña">
+         </div>
+         <div>
+            <label for="contraseña">Confirmar contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña">
+         </div>
+         <div>
+            <button type="submit" href="./home.html">Enviar</button>
+         </div>
+         <div>
+            <button type="reset">Borrar</button>
+         </div>
+
+    </form>
+</body>
+</html>
